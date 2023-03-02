@@ -1,0 +1,43 @@
+body{
+    background-color: lightgrey;
+}
+
+.header{
+    display:flex;
+}
+.p-1{
+    text-shadow: 2px 2px red;
+}
+
+.p-2{
+    text-shadow: 2px 2px red;
+}
+
+.HTML{
+    text-shadow: 2px 2px red;
+}
+
+.p-3{
+    font-style: oblique;
+    padding: 20px;
+    border: 1px solid #4CAF50;
+}
+
+.aside-1{
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+.footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: green;
+        color: white;
+        text-align: center;
+}
