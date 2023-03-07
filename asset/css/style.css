@@ -1,5 +1,6 @@
 body{
     background-color: lightgrey;
+    
 }
 
 .header{
@@ -40,4 +41,184 @@ body{
         background-color: green;
         color: white;
         text-align: center;
+}
+/* Contoh Membuat Tugas 5  */
+
+.b1{
+    background-color: #86A3B8;
+    
+    
+}
+.h3{
+    font-size: 24px;
+    margin-top: 03
+}
+.p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.center{
+    margin: auto;
+    width: 55%;
+    padding: 40px;
+    justify-content: space-evenly;
+  }
+
+.judul{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px red;
+    bor
+}
+
+
+
+.G-1{
+    text-align:center;
+}
+.G-2{
+    text-align:center;
+}
+.G-3{
+    text-align:center;
+}
+.G-4{
+    text-align:center;
+}
+
+.PA-1{
+    text-align:center;
+}
+.PA-2{
+    text-align:center;
+}
+.PA-3{
+    text-align:center;
+}
+.PA-4{
+    text-align:center;
+}
+
+.A-1{
+    padding:10px;
+    margin:10px;
+}
+.card-1{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    width: auto;
+    background-color:#BEF0CB;
+    border: 2px solid red;
+    border-radius: 25px ;
+
+    
+}
+.card-1 img{
+    width: 250px;
+    height: 350px;
+    object-fit: fill;
+}
+.card-2{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    width: auto;
+    background-color:#D1FFF3;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+.card-2 img{
+    width: 250px;
+    height: 350px;
+    object-fit: fill;
+}
+
+.card-3{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    width: auto;
+    background-color:#EEE9DA;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+.card-3 img{
+    width: 250px;
+    height: 350px;
+    object-fit: fill; 
+}
+.card-4{
+    display: inline-block;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    width: auto;
+    background-color:#ECF9FF;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+.card-4 img{
+    width: 250px;
+    height: 350px;
+    object-fit: fill;
+}
+.card-5{
+    display: inline-block;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    width: auto;
+    background-color:#E8E2E2;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+.card-5 img{
+    width: 250px;
+    height: 350px;
+    object-fit: fill;
+}
+.card-6{
+    display: inline-block;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    width: auto;
+    background-color:#E8D2A6;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+.card-6 img{
+    width: 250px;
+    height: 350px;
+    object-fit: fill;
+}
+.card-7{
+    display: inline-block;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    width: auto;
+    background-color:#FDEBED;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+.card-7 img{
+    width: 250px;
+    height: 350px;
+    object-fit: fill;
+}
+.card-8{
+    display: inline-block;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    width: auto;
+    background-color:#F5EA5A;
+    border: 2px solid red;
+    border-radius: 25px;
+}
+.card-8 img{
+    width: 250px;
+    height: 350px;
+    object-fit: fill;
 }
