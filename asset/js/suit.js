@@ -1,8 +1,13 @@
 var tanya = true;
 while (tanya) {
+
+    //menangkap pilihan player
     alert('SELAMAT DATANG DI GAME SUIT');
     alert('TOLONG MEMAKAIN HURUF BESAR TERIMAKASH!');
     var suit = prompt('PILIHAN : BATU , KERTAS , GUNTING');
+
+    //menangkap pilihan computer
+    //membangkitkan bilangan random
 
     var comp = Math.random();
 
@@ -14,6 +19,7 @@ while (tanya) {
         comp = 'GUNTING';
     }
 
+    //menentukan rules
     var hasil = '';
     if (suit == comp) {
         hasil = 'SERI';
@@ -26,6 +32,7 @@ while (tanya) {
     } else {
         hasil = 'memasukan pilihan  yang salah!';
     }
+    //tampilkan hasilnya
 
     alert('KAMU MEMILIH : ' + suit + '\nDAN KOMPUTER MEMILIH : ' + comp +
         '\nMAKA HASILNYA : KAMU ' + hasil);
