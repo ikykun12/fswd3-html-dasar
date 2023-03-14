@@ -1,5 +1,7 @@
 var tanya = true;
 while (tanya) {
+    alert('SELAMAT DATANG DI GAME SUIT');
+    alert('TOLONG MEMAKAIN HURUF BESAR TERIMAKASH!');
     var suit = prompt('PILIHAN : BATU , KERTAS , GUNTING');
 
     var comp = Math.random();
@@ -29,4 +31,4 @@ while (tanya) {
         '\nMAKA HASILNYA : KAMU ' + hasil);
     tanya = confirm('LAGI?');
 }
-alert('TERIMAKASIH SUDAH BERMAIN.!');
+alert('TERIMAKASIH SUDAH BERMAIN!!');
