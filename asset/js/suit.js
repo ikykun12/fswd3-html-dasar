@@ -9,32 +9,32 @@ while (tanya) {
     //menangkap pilihan computer
     //membangkitkan bilangan random
 
-    var comp = Math.random();
+    var computer = Math.random();
 
-    if (comp < 0.34) {
-        comp = 'BATU';
-    } else if (comp >= 0.34 && comp < 0.67) {
-        comp = 'KERTAS';
+    if (computer < 0.34) {
+        computer = 'BATU';
+    } else if (computer >= 0.34 && computer < 0.67) {
+        computer = 'KERTAS';
     } else {
-        comp = 'GUNTING';
+        computer = 'GUNTING';
     }
 
     //menentukan rules
     var hasil = '';
-    if (suit == comp) {
+    if (suit == computer) {
         hasil = 'SERI';
     } else if (suit == 'BATU') {
-        hasil = (comp == 'KERTAS') ? 'MENANG' : 'KALAH!';
+        hasil = (computer == 'KERTAS') ? 'MENANG' : 'KALAH!';
     } else if (suit == 'KERTAS') {
-        hasil = (comp == 'GUNTING') ? 'MENANG' : 'KALAH!';
+        hasil = (computer == 'GUNTING') ? 'MENANG' : 'KALAH!';
     } else if (suit == 'GUNTING') {
-        hasil = (comp == 'BATU ') ? 'KALAH' : 'MENANG';
+        hasil = (computer == 'BATU ') ? 'KALAH' : 'MENANG';
     } else {
         hasil = 'memasukan pilihan  yang salah!';
     }
     //tampilkan hasilnya
 
-    alert('KAMU MEMILIH : ' + suit + '\nDAN KOMPUTER MEMILIH : ' + comp +
+    alert('KAMU MEMILIH : ' + suit + '\nDAN KOMPUTER MEMILIH : ' + computer +
         '\nMAKA HASILNYA : KAMU ' + hasil);
     tanya = confirm('LAGI?');
 }
