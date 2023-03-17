@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css" />
+</head>
+<!-- Disini Saya Menggunakan Fremwork Taildwind CSS  -->
+
+<body class="bg-gray-200">
+    <div class="max-w-xl mx-auto my-10">
+        <h1 class="text-3xl font-bold text-center mb-5">Todo List</h1>
+        <div class="bg-white p-5 rounded-lg shadow">
+            <form class="mb-4">
+                <div class="flex items-center">
+                    <input type="text" id="new-todo" class="border border-gray-400 w-full py-2 px-3 rounded-md mr-3"
+                        placeholder="Add new todo" />
+                    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md">Add</button>
+                </div>
+            </form>
+            <ul id="todo-list"></ul>
+            <button id="clear-completed" class="mt-5 bg-red-500 text-white px-4 py-2 rounded-md">Clear
+                Completed</button>
+        </div>
+    </div>
+
+    <script src="../asset/js/todolist.js"></script>
+</body>
+
+</html>
