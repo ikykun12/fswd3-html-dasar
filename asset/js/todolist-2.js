@@ -5,7 +5,7 @@ const todoInput = document.querySelector("#todoInput");
 const addTodoBtn = document.querySelector("#addTodo");
 const todoList = document.querySelector("#todoList");
 
-const apiUrl = "https://crudcrud.com/api/f4da4c65c8f9452782b11519736fa077/todolist" // Ganti dengan URL API yang telah Anda buat
+const apiUrl = "https://crudcrud.com/api/4b214c50375a4d7d9867376b698994c9/todolist" // Ganti dengan URL API yang telah Anda buat
 
 // Function untuk menampilkan daftar todo
 function showTodoList() {
